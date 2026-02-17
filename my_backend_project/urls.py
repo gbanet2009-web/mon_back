@@ -4,7 +4,7 @@ from rest_framework_simplejwt.views import (
     TokenRefreshView,
 )
 
-from api.views import CourseListView, ExerciseListView, ProfileView
+from api.views import CourseListView, ExerciseListView, UserProfileView
 
 urlpatterns = [
     # JWT
@@ -14,5 +14,5 @@ urlpatterns = [
     # API
     path('courses/', CourseListView.as_view(), name='courses'),
     path('exercises/', ExerciseListView.as_view(), name='exercises'),
-    path('profile/', ProfileView.as_view(), name='profile'),
+    path('profile/', UserProfileView.as_view(), name='profile'),
 ]
