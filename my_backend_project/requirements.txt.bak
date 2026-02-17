@@ -9,7 +9,6 @@ Django==6.0.2
 django-cors-headers==4.9.0
 djangorestframework==3.16.1
 fastapi==0.129.0
-grpcio @ file:///home/builder/.termux-build/python-grpcio/src
 idna==3.11
 pillow==12.1.1
 pydantic==2.12.5

@@ -16,7 +16,6 @@ pillow==12.1.1
 pydantic==2.12.5
 pydantic_core==2.41.5
 requests==2.32.5
-rest-framework-simplejwt==0.0.2
 soupsieve==2.8.3
 sqlparse==0.5.5
 starlette==0.52.1
@@ -25,3 +24,4 @@ typing_extensions==4.15.0
 tzdata==2025.3
 urllib3==2.6.3
 whitenoise==6.11.0
+djangorestframework-simplejwt==6.4.0
