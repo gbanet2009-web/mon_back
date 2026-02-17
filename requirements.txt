@@ -36,3 +36,6 @@ sqlparse==0.5.5
 starlette==0.52.1
 fastapi==0.129.0
 
+# ⚠️ Obligatoire pour Termux / Python 3.12
+setuptools>=70.0.0
+wheel>=0.40.0

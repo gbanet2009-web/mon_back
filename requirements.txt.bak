@@ -5,6 +5,9 @@ djangorestframework-simplejwt==5.5.1
 django-cors-headers==4.9.0
 whitenoise==6.11.0
 
+# Serveur de production
+gunicorn==20.1.0
+
 # Images et fichiers
 pillow==12.1.1
 tzdata==2025.3
@@ -24,7 +27,7 @@ pydantic_core==2.41.5
 annotated-types==0.7.0
 annotated-doc==0.0.4
 
-# Frameworks ASGI / FastAPI
+# Frameworks ASGI / FastAPI (optionnel si tu utilises FastAPI)
 anyio==4.12.1
 asgiref==3.11.1
 beautifulsoup4==4.14.3
@@ -33,5 +36,3 @@ sqlparse==0.5.5
 starlette==0.52.1
 fastapi==0.129.0
 
-# Serveur de production
-gunicorn==20.1.0
