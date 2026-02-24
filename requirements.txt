@@ -9,3 +9,4 @@ gunicorn>=21.2.0
 pillow==12.1.1
 tzdata==2025.3
 psycopg2-binary>=2.9  # <- ajouté pour PostgreSQL
+dj-database-url
