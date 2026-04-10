@@ -1,12 +1,16 @@
 setuptools>=70.0.0
 wheel>=0.40.0
-Django==6.0.2
+
+Django>=5.0,<6.0
 djangorestframework==3.16.1
 djangorestframework-simplejwt==5.5.1
 django-cors-headers==4.9.0
+
 whitenoise==6.11.0
 gunicorn>=21.2.0
+
 pillow==12.1.1
 tzdata==2025.3
-psycopg2-binary>=2.9  # <- ajouté pour PostgreSQL
+
+psycopg2-binary>=2.9
 dj-database-url
